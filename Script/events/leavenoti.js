@@ -2,7 +2,7 @@ module.exports.config = {
   name: "leave",
   eventType: ["log:unsubscribe"],
   version: "1.0.0",
-  credits: "𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_ ☢️",
+  credits: "ALAMIN KHAN",
   description: "Thông báo bot hoặc người rời khỏi nhóm",
   dependencies: {
     "fs-extra": "",
@@ -21,8 +21,8 @@ module.exports.run = async function({ api, event, Users, Threads }) {
   const name = global.data.userName.get(event.logMessageData.leftParticipantFbId) || await Users.getNameUser(event.logMessageData.leftParticipantFbId);
 
   const type = (event.author == event.logMessageData.leftParticipantFbId)
-    ? " তোর সাহস কম না  গ্রুপের এডমিনের পারমিশন ছাড়া তুই লিভ  নিস😡😠🤬 \n✦─────꯭─⃝‌‌𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭────✦"
-    : "তোমার এই গ্রুপে থাকার কোনো যোগ্যাতা নেই ছাগল😡\nতাই তোমাকে লাথি মেরে গ্রুপ থেকে বের করে দেওয়া হলো🤪 WELLCOME REMOVE🤧\n✦─────꯭─⃝‌‌𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭────✦";
+    ? " ⚠️ গ্রুপের এডমিনের অনুমতি ছাড়া গ্রুপ ত্যাগ করা যাবে না। আপনি এডমিনের অনুমতি ছাড়াই গ্রুপ থেকে বের হয়েছেন। প্রয়োজনে অনুগ্রহ করে এডমিনের সাথে যোগাযোগ করুন। ᴬᴸᴬᴹᴵᴺ ᴷᴴᴬᴺ"
+    : "ত🤧 এই গ্রুপ আপনার জন্য নয়। 👢 **Removed Successfully** \nᴬᴸᴬᴹᴵᴺ ᴷᴴᴬᴺ";
 
   const path = join(__dirname, "Shahadat", "leaveGif");
   const gifPath = join(path, `leave1.gif`);
