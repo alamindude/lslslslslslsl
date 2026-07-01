@@ -2,7 +2,7 @@ module.exports.config = {
  name: "antiout",
  eventType: ["log:unsubscribe"],
  version: "0.0.1",
- credits: "𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_ ☢️",
+ credits: "Alamin kHAN",
  description: "Listen events"
 };
 
@@ -17,11 +17,8 @@ module.exports.run = async({ event, api, Threads, Users }) => {
    if (error) {
     api.sendMessage(`সরি বস, ${name} কে আবার এড করতে পারলাম না। 
 সম্ভবত উনি বটকে ব্লক করেছে অথবা তার প্রাইভেসি সেটিংসের কারণে এড করা যায় না। 
-\n──────꯭─⃝‌‌𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭─────`, event.threadID)
-   } else api.sendMessage(`শোন, ${name}, এই গ্রুপ হইলো গ্যাং!
-এখান থেকে যাইতে হলে এডমিনের পারমিশন লাগে!
-তুই পারমিশন ছাড়া লিভ নিছোস – তোকে আবার মাফিয়া স্টাইলে এড দিলাম।
-\n──────꯭─⃝‌‌𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭─────`, event.threadID);
+\nALAMIN KHAN`, event.threadID)
+   } else api.sendMessage(`শোন, ${name}, ℹ️ এই গ্রুপ থেকে বের হওয়ার আগে এডমিনের অনুমতি নেওয়া আবশ্যক। আপনি অনুমতি ছাড়াই গ্রুপ ত্যাগ করেছেন, তাই আপনাকে পুনরায় গ্রুপে যুক্ত করা হয়েছে। ALAMIN KHAN \nALAMIN KHAN`, event.threadID);
   })
  }
 }
