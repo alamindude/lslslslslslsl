@@ -1,8 +1,8 @@
 module.exports.config = {
-  name: "joinnoti",
+  name: "DIGITAL SERVIES HUB",
   eventType: ["log:subscribe"],
   version: "1.0.2",
-  credits: "SHAHADAT SAHU",
+  credits: "ALAMIN KHAN",
   description: "Welcome message with optional image/video",
   dependencies: {
     "fs-extra": "",
@@ -56,12 +56,12 @@ ${botPrefix}Help
 ${botPrefix}Info
 ${botPrefix}Admin
 
-★ যেকোনো অভিযোগ অথবা হেল্প এর জন্য এডমিন 𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 কে নক করতে পারেন ★
-➤𝐌𝐞𝐬𝐬𝐞𝐧𝐠𝐞𝐫: https://m.me/100001039692046
-➤𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩: https://wa.me/100001039692046
+★ যেকোনো অভিযোগ অথবা হেল্প এর জন্য এডমিন ALAMIN KHAN কে নক করতে পারেন ★
+➤𝐌𝐞𝐬𝐬𝐞𝐧𝐠𝐞𝐫: https://m.me/Iloveyouakalamin
+➤𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩: https://wa.me/+8801326251753
 
 ❖⋆═══════════════════════⋆❖
-          𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫 ➢ 𝐒𝐇𝐀𝐇𝐀𝐃𝐀𝐓 𝐒𝐀𝐇𝐔`;
+          𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫 ➢ ALAMIN KHAN`;
 
       if (selected) {
         api.sendMessage({ body: messageBody, attachment: selected }, threadID);
@@ -91,15 +91,24 @@ ${botPrefix}Admin
     let msg = (typeof threadData.customJoin === "undefined") ? `╭•┄┅═══❁🌺❁═══┅┄•╮
      আ্ঁস্ঁসা্ঁলা্ঁমু্ঁ💚আ্ঁলা্ঁই্ঁকু্ঁম্ঁ
 ╰•┄┅═══❁🌺❁═══┅┄•╯
-হাসি, মজা, ঠাট্টায় গড়ে উঠুক  
-চিরস্থায়ী বন্ধুত্বের বন্ধন।🥰
-ভালোবাসা ও সম্পর্ক থাকুক আজীবন।💝
+📱 Root Service | 🔓 Unlock | 🛠️ FRP | 💻 Panel Sell
+✔️ Respect Everyone
+✔️ No Spam
+✔️ No Toxic Behaviour
+✔️ Follow Admin Rules
+📩 Service নিতে ইনবক্স করুন।
+🤝 Stay Connected & Grow Together!
 
-➤ আশা করি আপনি এখানে হাসি-মজা করে 
-আড্ডা দিতে ভালোবাসবেন।😍
-➤ সবার সাথে মিলেমিশে থাকবেন।😉
-➤ উস্কানিমূলক কথা বা খারাপ ব্যবহার করবেন না।🚫
-➤ গ্রুপ এডমিনের কথা শুনবেন ও রুলস মেনে চলবেন।✅
+নিচে তোমার কাজের সাথে মিলিয়ে একটা customized welcome/rules message দিলাম — ফোন রুট সার্ভিস ও প্যানেল সেলিং গ্রুপের জন্য সুন্দরভাবে সাজানো:
+
+📌 𝑾𝒆𝒍𝒄𝒐𝒎𝒆 𝒕𝒐 𝑶𝒖𝒓 𝑹𝒐𝒐𝒕 & 𝑷𝒂𝒏𝒆𝒍 𝑪𝒐𝒎𝒎𝒖𝒏𝒊𝒕𝒚 👋
+➤ এখানে Phone Root Service, Unlock, FRP, Custom Recovery ও বিভিন্ন Panel Service সম্পর্কিত আলোচনা করা হয়। 🔧📱
+➤ সবাই ভদ্রভাবে কথা বলবেন এবং একে অপরকে সহযোগিতা করবেন। 🤝
+➤ অযথা স্প্যাম, ঝগড়া বা উস্কানিমূলক কথা বলা থেকে বিরত থাকুন। 🚫
+➤ কাজ সংক্রান্ত তথ্য স্পষ্টভাবে দিন যাতে দ্রুত সাপোর্ট দেওয়া যায়। ⚡
+➤ গ্রুপের রুলস মেনে চলুন এবং এডমিনের নির্দেশনা অনুসরণ করুন। ✅
+🔰 Trusted Root & Panel Service
+📩 কাজের জন্য ইনবক্স করুন | Fast Response • Secure Service • Trusted Deal
 
 ›› প্রিয় {name},  
 আপনি এই গ্রুপের {soThanhVien} নম্বর মেম্বার!
@@ -108,7 +117,7 @@ ${botPrefix}Admin
 
 💌 🌺 𝐖 𝐄 𝐋 𝐂 𝐎 𝐌 𝐄 🌺 💌
 ╭─╼╾─╼🌸╾─╼╾───╮
-   ─꯭─⃝‌‌𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭 🌺
+  ALAMIN KHAN 🌺
 ╰───╼╾─╼🌸╾─╼╾─╯
 
 ❖⋆══════════════════════════⋆❖` : threadData.customJoin;
